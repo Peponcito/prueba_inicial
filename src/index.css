@@ -1,0 +1,42 @@
+html, body {
+  font-family: arial;
+  font-size: 1.3rem;
+  }
+h1{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
+.CajaPadre{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.Caja{
+  width: 40%;
+  background-color: #eff5fa;
+  border-radius: 10px;
+}
+.Titulo{
+  font-size: 20px;
+  color: white;
+  background-color:#378fcb;
+  margin-top: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+p{
+  color: #206ea2;
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+
+
