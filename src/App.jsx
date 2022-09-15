@@ -1,11 +1,16 @@
-import Card from "./Components/Card";
-import Header from "./Components/Header";
+import {useState } from "react";
+import Introducir from "./Components/Introducir";
+import Listado from "./Components/Listado";
 const App = () => {
+
+  const[datosLista, setDatosLista] = useState({
+    cosa: '',
+  });
 
   return (
     <>
-    <Header title='Tema 05 Práctica 01'/>
-    <Card name = "Darío Chinea Delgado" birthday = "2003/04/27"/>
+    <Listado datosLista = {datosLista} setDatosLista = {setDatosLista}/>
+    <Introducir datosLista = {datosLista} setDatosLista = {setDatosLista}></Introducir>
     </>
   )
 };
